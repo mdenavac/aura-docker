@@ -1,5 +1,8 @@
 #! /bin/bash -eu
 
+
+# from https://github.com/carlossg/docker-maven/tree/322d0dff5d0531ccaf47bf49338cb3e294fd66c8/jdk-8
+
 set -o pipefail
 
 # Copy files from /usr/share/maven/ref into ${MAVEN_CONFIG}
